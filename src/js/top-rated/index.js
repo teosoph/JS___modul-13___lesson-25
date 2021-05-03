@@ -24,6 +24,7 @@ movieServices.fetchTopRatedMovies().then(({ results }) => {
   preloader.hide();
 });
 
+// DeepClone - глубокое копирование
 const deepClone = obj => {
   const result = {};
 
